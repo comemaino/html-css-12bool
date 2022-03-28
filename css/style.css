@@ -1,0 +1,27 @@
+body {
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    color: #ccc;
+}
+
+.container {
+    height: 600px;
+    background-color: #400;
+}
+
+.row {
+    background-color: #d44;
+}
+
+.box {
+    width: 100%;
+    height: 50px;
+    background-color: inherit;
+    border: 2px solid #ccc;
+}
+
+[class*=col]:nth-child(even) {
+    background-color: #44d;
+}
