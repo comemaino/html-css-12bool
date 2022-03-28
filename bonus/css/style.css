@@ -1,0 +1,29 @@
+body {
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    color: #ccc;
+}
+
+.container {
+    padding: 3rem
+}
+
+.box {
+    width: 100%;
+    background-color: inherit;
+    border: 2px solid #ccc;
+}
+
+.nest {
+    border: 2px solid #444;
+}
+
+[class*=col]:nth-child(even) {
+    background-color: #44d;
+}
+
+[class*=col]:nth-child(odd) {
+    background-color: #d44;
+}
